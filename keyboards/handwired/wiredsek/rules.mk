@@ -1,7 +1,7 @@
 MCU = at90usb646
 
-F_CPU = 16000000
-F_USB = $(F_CPU)
+F_CPU = 1000000
+F_USB = 16000000
 
 BOOTLOADER = atmel-dfu
 
