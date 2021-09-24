@@ -39,3 +39,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* define if matrix has ghost (lacks anti-ghosting diodes) */
 #define MATRIX_HAS_GHOST
 #define USB_POLLING_INTERVAL_MS 1
+#define TAPPING_TERM_PER_KEY
+#define TAPPING_TERM 400
+#define HOLD_ON_OTHER_KEY_PRESS
