@@ -20,3 +20,5 @@
     {k45, k44, k43, k4d, k0c, k0b, k0a, k09, k08, k07, KC_NO, KC_NO, k55, KC_NO, k30, KC_NO, k46}, \
     {k39, k38, k37, k36, k54, k35, k34, k33, k32, k31, KC_NO, k51, k57, k56, k5a, k59, k3a} \
 }
+
+layer_state_t layer_state_set_user(layer_state_t state);
