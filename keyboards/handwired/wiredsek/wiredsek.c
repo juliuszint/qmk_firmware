@@ -2,6 +2,7 @@
 
 #define FN_LED_PIN B7
 #define PRR_LED_PIN A7
+#define PRW_LED_PIN A6
 
 void keyboard_pre_init_user(void) {
     setPinOutput(FN_LED_PIN);

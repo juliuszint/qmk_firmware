@@ -34,11 +34,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MATRIX_COL_PINS {C6, C5, C4, C3, C2, C1, C0, E1, E0, D7, D6, D5, D4, D1, D0, E5, E4}
 #define UNUSED_PINS { B0, B1, B2, B3, C7, E6, E7 }
 
-/* COL2ROW or ROW2COL */
 #define DIODE_DIRECTION ROW2COL
-/* define if matrix has ghost (lacks anti-ghosting diodes) */
 #define MATRIX_HAS_GHOST
 #define USB_POLLING_INTERVAL_MS 1
-#define TAPPING_TERM_PER_KEY
+
 #define TAPPING_TERM 400
 #define HOLD_ON_OTHER_KEY_PRESS
