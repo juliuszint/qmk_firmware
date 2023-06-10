@@ -2,6 +2,27 @@
 #include "quantum.h"
 #include "keymap_german.h"
 
+enum custom_keycodes {
+  RGB_SLD = SAFE_RANGE,
+  ST_MACRO_0,
+  ST_MACRO_1,
+  ST_MACRO_2,
+  ST_MACRO_3,
+  ST_MACRO_4,
+  ST_MACRO_5,
+  ST_MACRO_6,
+  ST_MACRO_7,
+  ST_MACRO_8,
+  ST_MACRO_9,
+  ST_MACRO_10,
+  ST_MACRO_11,
+  ST_MACRO_12,
+  ST_MACRO_13,
+  ST_MACRO_14,
+  ST_MACRO_15,
+  ST_MACRO_16,
+};
+
 #define LAYOUT( \
     k00, k01, k02, k03, k04, k05, k06, k07, k08, k09, k0a, k0b, k0c, k0d, k0e, k0f, k0g, k0h, k0i, k0j, k0k, k0l, \
     k10, k11, k12, k13, k14, k15, k16, k17, k18, k19, k1a, k1b, k1c, k1d, k1e, k1f, k1g, k1h, k1i, k1j, k1k, \
